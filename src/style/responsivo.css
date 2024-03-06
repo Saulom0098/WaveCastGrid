@@ -16,6 +16,7 @@
 
     .navbar {
         display: block;
+        justify-content: center;
     }   
 
     .cabecalho {
@@ -38,6 +39,11 @@
     .secao-vertical .cartao {
         background-color: transparent;
         padding: 0;
+    }
+
+    .navbar__item  {
+        display: flex;
+        justify-content: center;
     }
 
 }
